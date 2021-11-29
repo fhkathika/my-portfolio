@@ -1,0 +1,43 @@
+[
+    {  "id":"1",
+        "name":"Radhunir Rannaghor",
+        "image":"https://i.ibb.co/YDVNDbk/Project3.png",
+        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
+
+    },
+    {
+        "id":"4",
+        "name":"Wood Attack",
+        "image":"https://i.ibb.co/HTRdvxF/project4edited.png",
+        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
+
+    },
+    {"id":"2",
+        "name":"Yoga Express",
+        "image":"https://i.ibb.co/C6GPTWk/Project2.png",
+        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
+
+    },
+    {
+        "id":"3",
+        "name":"Mentors",
+        "image":"https://i.ibb.co/tL06Nf3/project1.png",
+        "detail":"Technology used: JavaScript,FireBase,React,Html,CSS"
+
+    },
+   
+    {
+        "id":"5",
+        "name":"Entropenur Fair",
+        "image":"https://i.ibb.co/L1CZSn9/project5.png",
+        "detail":"Technology used:Html,CSS,JavaScript"
+
+    },
+    {
+        "id":"6",
+        "name":"Shopping World",
+        "image":"https://i.ibb.co/XZRJMyv/Project6.png",
+        "detail":"Technology used:Html,CSS,JavaScript"
+
+    }
+]
