@@ -1,7 +1,7 @@
 [
     {  "id":"1",
         "name":"Radhunir Rannaghor",
-        "image":"https://i.ibb.co/YDVNDbk/Project3.png",
+        "image":["https://i.ibb.co/YDVNDbk/Project3.png,https://i.ibb.co/XzvnLNN/food2.png,https://i.ibb.co/BGDnN3N/food3.png"],
         "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
         "fulldetail1": " \u2022 This website is listed for whom want to get fresh and healthy food",
 "fulldetail2": " \u2022Anyone can visit our website and see our food & details" ,
@@ -15,7 +15,7 @@
     {
         "id":"4",
         "name":"Wood Attack",
-        "image":"https://i.ibb.co/HTRdvxF/project4edited.png",
+        "image":["https://i.ibb.co/HTRdvxF/project4edited.png ,https://i.ibb.co/SPZGXxY/wood2.png ,https://i.ibb.co/5MHYRRH/wood3.png"],
         "detail": "Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
 "fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
 "fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,
@@ -29,7 +29,7 @@
     },
     {"id":"2",
         "name":"Yoga Express",
-        "image":"https://i.ibb.co/C6GPTWk/Project2.png",
+        "image":["https://i.ibb.co/C6GPTWk/Project2.png,https://i.ibb.co/HxMpdgW/yoga2.png,https://i.ibb.co/nBPCfSK/yoga3.png"],
         "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
         "fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
 "fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,
@@ -43,7 +43,7 @@
     {
         "id":"3",
         "name":"Mentors",
-        "image":"https://i.ibb.co/tL06Nf3/project1.png",
+        "image":["https://i.ibb.co/tL06Nf3/project1.png,https://i.ibb.co/y4L5DbL/mentors2.png,https://i.ibb.co/BcdnCH6/mentors3.png"],
         "detail":"Technology used: JavaScript,FireBase,React,Html,CSS,Material UI",
         "fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
 "fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,

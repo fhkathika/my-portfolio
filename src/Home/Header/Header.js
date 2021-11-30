@@ -11,10 +11,7 @@ const Header = () => {
  
   <Navbar  collapseOnSelect expand="lg" variant="light" style={{backgroundColor:'#251C14' ,width:'100%', padding:'5px'}}>
         <Container>
-        <Navbar.Brand as={Link} style={{color:'white',fontFamily:'cursive'}}  to="#home"> <h3> Fariha Hasan Kathika
-          </h3></Navbar.Brand>
-       
-
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
         <Nav  className="me-auto">

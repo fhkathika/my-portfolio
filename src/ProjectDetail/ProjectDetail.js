@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useProjectDetail from '../hooks/useProjectDetail';
+import Slider from "react-slick";
 
 const ProjectDetail = () => {
    
@@ -21,13 +22,29 @@ useEffect(()=>{
    setSingleDetail(findDetail)
 },[details])
     
-   
+var settings = {
+    dots: true
+  }; 
     return (
       
         <Container>
         <Row style={{ marginTop:'5%' }}>
           <Col sm={6}>
-          <Card.Img  style={{ width: '100%',marginLeft:'auto',marginRight:'auto',borderRadius:'20px'}} variant="top" src={singleDetail?.image} />
+          <Slider {...settings}>
+        {
+          details.map(detailImage =>
+            <Container style={{ margin: '10%' }}>
+              {/* reviewValue,userName,userEmail, */}
+              <Card style={{ width: 'auto', margin: '5%', background: '#E3D1C1' }} sx={{ minWidth: 275 }}>
+              <Card.Img  style={{ width: '100%',marginLeft:'auto',marginRight:'auto',borderRadius:'20px'}} variant="top" src={detailImage.image} />
+
+              </Card>
+            </Container>)
+        }
+
+
+      </Slider>
+        
           </Col>
           <Col sm={5}>
           <Card style={{ width: '100%',marginLeft:'auto',marginRight:'auto' }}>
