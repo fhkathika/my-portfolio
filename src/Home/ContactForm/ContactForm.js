@@ -28,9 +28,9 @@ const ContactForm = () => {
       
       }
     return (
-        <div  id="contactform">
+        <div  id="contactform" className='mt-4'>
             <h1>ContactForm</h1>
-            <div className='mx-auto w-100'>
+            <div className='mx-auto w-100 mt-4'>
             <form ref={form} onSubmit={sendemail}>
             <div class="half left cf">
             <input    type="text" id="input-name" placeholder="Name" name="name"></input>

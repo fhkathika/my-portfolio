@@ -21,6 +21,8 @@ const Header = () => {
         <Nav.Link style={{color:'white',fontFamily:'cursive'}} as={HashLink} to="/home#home">Home</Nav.Link>
       <Nav.Link  style={{color:'white',fontFamily:'cursive'}} as={HashLink} to="/home#myproject">My Project</Nav.Link>
       <Nav.Link style={{color:'white',fontFamily:'cursive'}} as={HashLink} to="/home#contactform">Contact Form</Nav.Link>
+      <Nav.Link style={{color:'white',fontFamily:'cursive'}} as={HashLink} to="/home#about">About</Nav.Link>
+      <Nav.Link style={{color:'white',fontFamily:'cursive'}} as={HashLink} to="/blog">Blog</Nav.Link>
   
      
       <a  style={{marginTop:'auto'}} href="https://drive.google.com/uc?export=download&id=1ZvFws-CyMuZ6mPtnw3N35NDhkeM9bx2e" target="_blank"><Button>Download resume</Button></a>

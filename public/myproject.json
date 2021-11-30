@@ -2,42 +2,58 @@
     {  "id":"1",
         "name":"Radhunir Rannaghor",
         "image":"https://i.ibb.co/YDVNDbk/Project3.png",
-        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
-
+        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
+        "fulldetail1": " \u2022 This website is listed for whom want to get fresh and healthy food",
+"fulldetail2": " \u2022Anyone can visit our website and see our food & details" ,
+"fulldetail3": " \u2022people can order food from our website" ,
+"fulldetail4": " \u2022people can see which food they have ordered...it means they cab see the order list",
+"fulldetail5": " \u2022my website has manage all order page..here admin can see all the order.infact he can delete any order . there has also a delete option for customer.they can cancel their order any time",
+"github":" https://food-catering-service-a11.web.app/home",
+"livesite":"https://github.com/fhkathika/radhunir-rannaghor-client-side.git"
     },
+
     {
         "id":"4",
         "name":"Wood Attack",
         "image":"https://i.ibb.co/HTRdvxF/project4edited.png",
-        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
+        "detail": "Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
+"fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
+"fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,
+"fulldetail3": " \u2022people can order from our website." ,
+"fulldetail4": " \u2022people can see which Item they have ordered.it means they can see the order list.my website has manage all order page.here admin can see all the order.infact he can delete any order ",
+"fulldetail5": " \u2022 there has also a delete option for customer.they can cancel their order any time",
+"github":"https://github.com/fhkathika/wood-attack-client.git",
+"livesite":"https://wood-craft-1093b.web.app/"
+
 
     },
     {"id":"2",
         "name":"Yoga Express",
         "image":"https://i.ibb.co/C6GPTWk/Project2.png",
-        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS"
+        "detail":"Technology used: React,JavaScript,MongoDB,FireBase,Html,CSS",
+        "fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
+"fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,
+"fulldetail3": " \u2022people can order from our website." ,
+"fulldetail4": " \u2022people can see which Item they have ordered.it means they can see the order list.my website has manage all order page.here admin can see all the order.infact he can delete any order ",
+"fulldetail5": " \u2022 there has also a delete option for customer.they can cancel their order any time",
+"github":"https://github.com/fhkathika/yoga-express-client-side.git",
+"livesite":"https://yoga-express-a10.web.app/"
 
     },
     {
         "id":"3",
         "name":"Mentors",
         "image":"https://i.ibb.co/tL06Nf3/project1.png",
-        "detail":"Technology used: JavaScript,FireBase,React,Html,CSS"
-
-    },
-   
-    {
-        "id":"5",
-        "name":"Entropenur Fair",
-        "image":"https://i.ibb.co/L1CZSn9/project5.png",
-        "detail":"Technology used:Html,CSS,JavaScript"
-
-    },
-    {
-        "id":"6",
-        "name":"Shopping World",
-        "image":"https://i.ibb.co/XZRJMyv/Project6.png",
-        "detail":"Technology used:Html,CSS,JavaScript"
+        "detail":"Technology used: JavaScript,FireBase,React,Html,CSS,Material UI",
+        "fulldetail1": " \u2022 This website is listed for children & whom love decorate home with unique items.",
+"fulldetail2": " \u2022 Anyone can visit our website and see our Items & details." ,
+"fulldetail3": " \u2022people can order from our website." ,
+"fulldetail4": " \u2022people can see which Item they have ordered.it means they can see the order list.my website has manage all order page.here admin can see all the order.infact he can delete any order ",
+"fulldetail5": " \u2022 there has also a delete option for customer.they can cancel their order any time",
+        "github":"https://github.com/fhkathika/Menotrs.git",
+        "livesite":  "https://mentors-educational-service-a9.netlify.app/home"
 
     }
+   
+  
 ]

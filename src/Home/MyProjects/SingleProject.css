@@ -1,18 +1,18 @@
 .projectStyle{
-    height: auto;
+    height: 100%;
     width: 100%;
     margin: auto;
     grid-template-columns: repeat(2,1fr);
     background: linear-gradient(
         to right,
         #dc965a  0%,
-        #d3b194 35%,
+        #dc965a 35%,
        white 35%,
        white 65%,
-        #d3b194 65%,
+       #dc965a 65%,
         #dc965a 100%
     );
-    
+   
 
 }
 
