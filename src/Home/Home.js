@@ -6,6 +6,7 @@ const Home = () => {
     return (
         <div id="home">
             <MyProjects></MyProjects>
+            <hr />
             <ContactForm></ContactForm>
         </div>
     );

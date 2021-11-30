@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Header from './Home/Header/Header';
 import Home from './Home/Home';
+import ProjectDetail from './ProjectDetail/ProjectDetail';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
     </Route>
     <Route path="/home">
       <Home></Home>
+    </Route>
+    <Route path="/projectdetail/:detailId">
+      <ProjectDetail></ProjectDetail>
     </Route>
      </Switch>
      </BrowserRouter>

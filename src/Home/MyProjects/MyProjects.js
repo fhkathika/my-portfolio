@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import ProjectDetail from '../../ProjectDetail/ProjectDetail';
 import SingleProject from './SingleProject';
  import './SingleProject.css'
 const MyProjects = () => {
@@ -14,13 +15,22 @@ const MyProjects = () => {
            <h1>My Project</h1> 
            
              
-<Container className="width:'100%',marginLeft:'auto',marginRight:'auto',marginTop:'auto'" >
-  <Row>
+<Container >
+  <Row xs={1} md={2} className="g-5 " >
   {
-                      myProject.map(myproject=><SingleProject
+                      myProject.map(myproject=>
+                        <Container>
+                      <SingleProject
                       key={myproject.id}
                       myproject={myproject}
-                      ></SingleProject>) 
+                      ></SingleProject>
+
+                        <ProjectDetail
+                      key={myproject.id}
+                      myproject={myproject}
+                      ></ProjectDetail>
+                      </Container>
+                      ) 
                    }
   </Row>
 

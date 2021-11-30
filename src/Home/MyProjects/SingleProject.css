@@ -1,14 +1,36 @@
 .projectStyle{
-    height: 250vh;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
     background: linear-gradient(
         to right,
         #dc965a  0%,
-        #d3b194 40%,
+        #d3b194 35%,
        white 35%,
-       white 60%,
-        #d3b194 60%,
+       white 65%,
+        #d3b194 65%,
         #dc965a 100%
     );
     
 
 }
+
+@media only screen and (max-width:688px) {
+    .projectStyle{
+        grid-template-columns: repeat(1,1fr);
+        background: linear-gradient(
+        to right,
+        #dc965a  0%,
+        #dc965a 50%,
+       
+        white 50%,
+        white 100%
+    );
+    } 
+ }
+ @media only screen and (min-width:689px) and (max-width:991px){
+     .projectStyle{
+         grid-template-columns: repeat(2,1fr);
+     }
+ }
