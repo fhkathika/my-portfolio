@@ -53,6 +53,54 @@ Mainly when a function return the view JSX converts into javascript.And the diff
 
 
 </p>
+<div>
+    <p>Relational database
+A database that depend on one another and connect to watch other.And all data will be in table.and those data has a unique key that interconnect all tables data that is called primary key.Normally bank.schools,univarsities use relational database to store their data
+Every field have to be filled in the database.All excel sheets are relational database.
+
+Uses:
+1.Best for all OLTP(online Transection Process) Such as:Paytm,GooglePay,HSBC bank,Bank of America,Amazon,Flipcart.It means all transection process.
+2.use in web application.most cases use the database called MySql such as :Amazon
+3.php ,java based web application
+Example:
+MySql,Sql,DBMS,IBM DB2,Oracle
+Table:
+Tables are divided into field,attribute ,tuple,entry
+Design of a table called schema that contains in column,index and relation between tables
+				Non-Relational database
+Non-relational database is noSql.It is not connected to one another.we can make different entry.Its schema free.It means there is no table.It has also a unique key and no fix structure at all.
+Advantages:
+1.auto scaling possible(add multiple server)
+2.hardware is cheaper
+3.Perfomance is higher than relational data base.(read/write)
+4.uses in online analytical process
+Exapmle:
+Mongodb,Casandra,Dynamodb,Postgre,redis,raven
+				Type of Non-relational databse
+1.Columnar Database:saves data as a column such as:Casandro,HBase
+2.Document Database:saves data as a document.sometimes we need to store data with description.Like blog,video,movie.then we can use document database.such as:MongoDb,CouchDB,RavenDB
+3.Key Value Databse:Redis,Rick,DynamoDB,TokyoCabinet
+4.Grapg Based Database:To make graph based data like weather report.(Neo4J,FlockDB)
+
+
+Node js
+Node js is a platform where javascript run into serverside.It is normally used for any kind of non blocking function.
+Advantages:
+1.Open source as well as flexible framework
+2.It supports javascript functions like interfaces,modules,classes
+
+Express js
+It is a framework of node js.It is managed serverside.
+Uses:
+1.develop server side rest Api
+2.we can also make web application using express js with template engine like pug
+3.Adding we can also use express with react js vue or angular to develop application.express js only manage serverside.
+
+
+
+
+</p>
+</div>
         </div>
     );
 };
